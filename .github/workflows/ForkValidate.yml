@@ -4,9 +4,9 @@ on:
   #Run when PR's are made to main, where the changes are in the bicep directory or this workflow file itself
   pull_request:
     branches: [main, develop]
-    paths:
-      - "bicep/*"
-      - ".github/workflows/StandardCI.yml"
+    #paths:
+      #- "bicep/*"
+      #- ".github/workflows/ForkValidate.yml"
 
 env:
   AZCLIVERSION: 2.29.2 #Pinning to a specific AZ CLI version
